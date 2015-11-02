@@ -1,5 +1,12 @@
 from selenium import webdriver 
+import navbar
 
-def __init__(self):
-	driver = driver.Firefox()
-	driver.get("http://shoestore-manheim.rhcloud.com/")
+
+class HomePage(navbar.NavBar):
+	pageUrl = "http://shoestore-manheim.rhcloud.com/"
+
+	def __init__(self, webdriver):
+		self.driver = webdriver
+		self.driver.get(self.pageUrl)
+	
+		
