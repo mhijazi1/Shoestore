@@ -1,9 +1,11 @@
 # Shoestore
 ## Setup
-
-In order to run the tests you will need the behave module and python
+Gherkin project for testing [Shoestore](http://shoestore-manheim.rhcloud.com/) using behave and selenium
+In order to run the tests you will need the behave and selenium modules and python
 
 For instructions on installing behave please see this [page](http://pythonhosted.org/behave/)
+
+For instructions on installing selenium please see this [page](http://selenium-python.readthedocs.org/installation.html)
 
 Additionally you can setup the type of browser used from the config.py file.
 Firefox is used and avalible by default
