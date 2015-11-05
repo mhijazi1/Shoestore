@@ -30,4 +30,4 @@ def i_should_recive_a_message(context):
 @then(u'I should not receive a message')
 def i_should_not_recive_a_message(context):
 	output =  message + context.inputemail
- 	assert context.currentPage.get_flash_notice() != output, "Empty email returns a positive response"
+ 	assert context.currentPage.get_flash_notice() != output, "Invalid email returns a positive response"
